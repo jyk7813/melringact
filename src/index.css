@@ -1,23 +1,43 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @font-face {
-    font-family: 'GmarketSansLight';
-    src: url('./assets/fonts/GmarketSansTTFLight.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'GmarketSansLight';
+  src: url('./assets/fonts/GmarketSansTTFLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('./assets/fonts/GmarketSansTTFMedium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'GmarketSansMedium';
+  src: url('./assets/fonts/GmarketSansTTFMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'GmarketSansBold';
-    src: url('./assets/fonts/GmarketSansTTFBold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'GmarketSansBold';
+  src: url('./assets/fonts/GmarketSansTTFBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+@layer base {
+  html,
+  body {
+    height: 100%;
+    font-family: 'GmarketSansMedium', sans-serif;
+  }
+
+  body {
+    margin: auto;
+    font-weight: 500;
+    color: #333333;
+    background: #fcfcfc;
+  }
+  
+  #root {
+    margin: 0 auto;
+    height: 100%;
+    box-sizing: border-box;
+  }
+}

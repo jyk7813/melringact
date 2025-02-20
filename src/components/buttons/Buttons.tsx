@@ -27,15 +27,15 @@ const Buttons = ({
   }
 
   const sizes = {
-    sm: 'h-12 text-sm px-8',
-    md: 'h-16 text-md px-10',
-    lg: 'h-20 text-lg px-12',
+    sm: 'h-12 text-xl px-8',
+    md: 'h-18 text-2xl px-10',
+    lg: 'h-20 text-3xl px-12',
   }
 
   const weights = {
     '400': 'font-normal',
     '500': 'font-medium',
-    '600': 'font-semibold',
+    '600': 'font-bold',
   }
 
   return (
